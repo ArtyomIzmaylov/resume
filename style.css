@@ -57,7 +57,6 @@ pre {
 .content-header {
     color: #86898f;
     border-bottom: 2px solid #86898f;
-
 }
 
 
@@ -100,6 +99,7 @@ pre {
 .employment li {
     margin-right: 5px;
 }
+
 .experience {
     display: flex;
 }
