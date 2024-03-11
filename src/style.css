@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #ffffff;
+    color : #110f0f;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+pre {
+    margin: 0; /* убираем внешние отступы */
+    padding: 0; /* убираем внутренние отступы */
+    font-family: inherit; /* используем шрифт родительского элемента */
+    font-size: inherit; /* используем размер шрифта родительского элемента */
+    line-height: inherit; /* используем высоту строки родительского элемента */
+}
+
+.info {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.info-contacts {
+    padding: 0;
+    padding-left: 10px;
+    list-style: none;
+
+}
+.info-living {
+    padding: 0;
+    padding-left: 10px;
+    list-style: none;
+
+}
+.avatar {
+    margin-right: 50px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.89);
+    width: 180px;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 750px;
+}
+
+.content-header {
+    color: #86898f;
+    border-bottom: 2px solid #86898f;
+
+}
+
+
+.job-salary {
+    display: flex;
+}
+
+.job-salary h3 {
+    width: 50%;
+}
+.job-salary h3:last-child {
+    text-align: right;
+}
+
+
+
+
+
+
+
+.jobs, .employment, .schedule, .travel-time{
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.job-info > div {
+    margin-bottom: 10px; /* Уменьшаем отступ снизу между блоками */
+}
+
+.employment ul, .schedule ul, .travel-time ul, .jobs ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+.travel-time {
+    border: 0;
+}
+
+.employment li {
+    margin-right: 5px;
+}
+.experience {
+    display: flex;
+}
+.experience > .work-date {
+    width: 20%;
+}
+.experience > .work-place {
+    width: 80%;
+}
+.experience ul {
+    list-style: '- ';
+    padding: 0;
+}
+
+.education-flex {
+    display: flex;
+}
+
+.education-flex p {
+    width: 20%;
+}
+.education-flex h2 {
+    text-align: left;
+}
+
+
+.language-skills, .hard-skills{
+    display: flex;
+}
+.language-skills p {
+    width: 20%;
+}
+.language-skills ul {
+    padding: 0;
+    list-style-type: none;
+}
+.hard-skills p {
+    width: 20%;
+}
+.hard-skills ul{
+    width: 80%;
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+.hard-skills ul > li{
+    padding: 5px;
+    flex: 1 0 auto; /* flex-grow: 1; flex-shrink: 0; flex-basis: auto; */
+    padding: 5px;
+
+}
+
+.hard-skills span{
+    background-color: #d4d4d4;
+    padding: 2px 5px;
+    margin: 2px;
+    border-radius: 3px
+}
+
+.additional-information-container {
+    display: flex;
+    overflow: auto;
+
+}
+
+
+.additional-information-container::-webkit-scrollbar {
+    width: 12px; /* Ширина полосы прокрутки */
+}
+
+/* Стили для бегунка */
+.additional-information-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Цвет бегунка */
+    border-radius: 6px; /* Закругление углов бегунка */
+}
+
+/* При наведении на бегунок */
+.additional-information-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Измененный цвет бегунка при наведении */
+}
+
+
+
+.additional-information-container .about-me {
+    width: 20%;
+}
+
+.additional-information-container .additional-info {
+    width: 80%;
+}
+
+.additional-information-container .additional-info p {
+    white-space: pre-wrap;
+}
+
+.additional-information-container .additional-info {
+    width: 80%;
+}
+.pre {
+    background-color: #ffffff;
+    color : #110f0f;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
