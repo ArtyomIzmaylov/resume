@@ -44,9 +44,12 @@ pre {
 .avatar {
     margin-right: 50px;
     border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.89);
     width: 180px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.89);
+    max-height: 100%;
 }
+/*
+385 × 500 px*/
 
 
 .container {
