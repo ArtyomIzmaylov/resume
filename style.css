@@ -45,8 +45,10 @@ pre {
     margin-right: 50px;
     border-radius: 28px;
     width: 180px;
+    height: 233px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.89);
     max-height: 100%;
+    max-width: 100%;
 }
 /*
 385 × 500 px*/
